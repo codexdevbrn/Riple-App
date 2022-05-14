@@ -90,23 +90,6 @@ class CardExibition extends StatelessWidget {
                             ))
                       ],
                     ),
-                    Container(
-                        width: 55.0,
-                        height: 55.0,
-                        child: Column(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            ElevatedButton(
-                              onPressed: () {},
-                              style: ButtonStyle(
-                                  alignment: Alignment.center,
-                                  backgroundColor: MaterialStateProperty.all(
-                                    Colors.redAccent,
-                                  )),
-                              child: const Icon(Icons.delete),
-                            )
-                          ],
-                        ))
                   ],
                 )),
           ),
